@@ -36,11 +36,13 @@ abstract class SecurxPlatform extends PlatformInterface {
   }
 
   Future<bool?> isDebuggingModeEnable() {
-    throw UnimplementedError('isDebuggingModeEnable() has not been implemented.');
+    throw UnimplementedError(
+        'isDebuggingModeEnable() has not been implemented.');
   }
 
   Future<bool?> isDeveloperModeEnabled() {
-    throw UnimplementedError('isDeveloperModeEnabled() has not been implemented.');
+    throw UnimplementedError(
+        'isDeveloperModeEnabled() has not been implemented.');
   }
 
   Future<bool?> isEmulator() {

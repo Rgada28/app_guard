@@ -2,8 +2,8 @@
 # Securx - A Security Analysis Package
 
 [![pub package](https://img.shields.io/pub/v/securx.svg)](https://pub.dev/packages/securx)
-[![pub points](https://badges.bar/securx/pub%20points)](https://pub.dev/packages/securx/score)
-[![likes](https://badges.bar/securx/likes)](https://pub.dev/packages/securx/score)
+[![Maintenance](https://img.shields.io/maintenance/yes/2025)](https://pub.dev/packages/securx/score)
+
 
 
 A robust mobile security package designed to enhance application resilience against various threats. This package includes features for device integrity checks, secure communication, mobile privacy, and fraud prevention.
@@ -86,7 +86,7 @@ final _secuxPlugin = Securx(
 );
 
 // To control screenshot protection after initialization
-_appGuardPlugin.setScreenshotProtection(enabled: true); // true = restricted
+_securxPlugin.setScreenshotProtection(enabled: true); // true = restricted
 ```
 
 ## Compatibility

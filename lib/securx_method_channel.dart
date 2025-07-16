@@ -15,7 +15,8 @@ class MethodChannelSecurx extends SecurxPlatform {
 
   @override
   Future<String?> getPlatformVersion() async {
-    final version = await methodChannel.invokeMethod<String>('getPlatformVersion');
+    final version =
+        await methodChannel.invokeMethod<String>('getPlatformVersion');
     return version;
   }
 
@@ -33,13 +34,15 @@ class MethodChannelSecurx extends SecurxPlatform {
 
   @override
   Future<bool?> isDebuggingModeEnable() async {
-    final usbDebug = await methodChannel.invokeMethod<bool>('isDebuggingModeEnable');
+    final usbDebug =
+        await methodChannel.invokeMethod<bool>('isDebuggingModeEnable');
     return usbDebug;
   }
 
   @override
   Future<bool?> isDeveloperModeEnabled() async {
-    final developerMode = await methodChannel.invokeMethod<bool>('isDeveloperModeEnabled');
+    final developerMode =
+        await methodChannel.invokeMethod<bool>('isDeveloperModeEnabled');
     return developerMode;
   }
 

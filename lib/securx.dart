@@ -65,7 +65,8 @@ class Securx {
   ///
   /// Returns a string representing the platform version if successful, otherwise
   /// returns null.
-  Future<String?> get getPlatformVersion => SecurxPlatform.instance.getPlatformVersion();
+  Future<String?> get getPlatformVersion =>
+      SecurxPlatform.instance.getPlatformVersion();
 
   /// Checks if the device is Rooted for Android
   /// Checks if the device is Jailbroken for iOS
@@ -89,13 +90,15 @@ class Securx {
   ///
   /// Returns a boolean indicating whether debugging mode is enabled.
   /// If the platform does not support this operation, it returns null.
-  Future<bool?> get isDebuggingModeEnabled => SecurxPlatform.instance.isDebuggingModeEnable();
+  Future<bool?> get isDebuggingModeEnabled =>
+      SecurxPlatform.instance.isDebuggingModeEnable();
 
   /// Checks if the device developer mode (Only works on Android)
   ///
   /// Returns a boolean indicating whether developer mode is enabled.
   /// If the platform does not support this operation, it returns null.
-  Future<bool?> get isDeveloperModeEnabled => SecurxPlatform.instance.isDeveloperModeEnabled();
+  Future<bool?> get isDeveloperModeEnabled =>
+      SecurxPlatform.instance.isDeveloperModeEnabled();
 
   /// Checks if the device is an emulator.
   ///
@@ -108,5 +111,6 @@ class Securx {
   /// Returns a boolean indicating whether a VPN is enabled.
   /// If the platform does not support this operation, it returns null.
   Future<bool?> get isVpnEnabled => SecurxPlatform.instance.isVpnEnabled();
-  Future<bool?> get isDebuggerAttached => SecurxPlatform.instance.isDebuggerAttached();
+  Future<bool?> get isDebuggerAttached =>
+      SecurxPlatform.instance.isDebuggerAttached();
 }

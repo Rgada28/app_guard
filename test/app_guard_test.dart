@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
-import 'package:securx/app_guard_method_channel.dart';
 import 'package:securx/securx.dart';
+import 'package:securx/securx_method_channel.dart';
 import 'package:securx/securx_platform_interface.dart';
 
 class MockSecurxPlatform with MockPlatformInterfaceMixin implements SecurxPlatform {
